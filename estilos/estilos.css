@@ -185,3 +185,50 @@ header {
 }
 
 /* Fin De Sección Sobre Nosotros */
+
+/* Pie de Página */
+.top-footer {
+  background-color: #193441;
+  height: 25px;
+}
+
+.center-footer {
+  background-color: #152D37;
+}
+
+.center-footer .contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center-footer .widget {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color: #7A7A7A;
+  max-width: 270px;
+  margin: 0px auto;
+}
+
+.center-footer .widget h4 {
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+
+.center-footer widget p {
+  font-size: 14px;
+}
+
+.bottom-footer {
+  background-color: #193441;
+  height: 25px;
+}
+
+.bottom-footer p {
+  color: #7A7A7A;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Fin de Pie de Página */
