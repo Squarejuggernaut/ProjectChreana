@@ -101,6 +101,11 @@ header {
   padding: 10px 50px;
   background-color: #00000078;
   margin-top: 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.llamada-accion a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
  /* Fin Banner */
@@ -131,6 +136,10 @@ header {
 /* Fin Sección de Bienvenida */
 
 /* Sección Sobre Nosotros */
+.nosotros {
+  padding-bottom: 80px;
+}
+
 .nosotros > .contenedor {
   display: flex;
   flex-direction: row;
@@ -184,6 +193,20 @@ header {
   color: #0E96DD;
 }
 
+@media all and (min-width:759px) {
+  .nosotros {
+    padding-top: 80px;
+  }
+
+  .foto-equipo {
+    margin-right: 30px;
+  }
+
+  .conocenos {
+    padding-left: 30px;
+    text-align: left;
+  }
+}
 /* Fin De Sección Sobre Nosotros */
 
 /* Pie de Página */
